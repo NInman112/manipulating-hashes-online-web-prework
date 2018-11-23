@@ -22,6 +22,7 @@ def first_challenge
           attribute.delete!
         end
       end
+    end
   #remember to return your newly altered contacts hash!
   contacts
 end
