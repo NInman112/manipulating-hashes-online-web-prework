@@ -23,9 +23,10 @@ def first_challenge
             value.delete_if == "strawberry"
         #    binding.pry
           end
-          return contacts
       end
     end
+              return contacts
+
   end
   
   #remember to return your newly altered contacts hash!
