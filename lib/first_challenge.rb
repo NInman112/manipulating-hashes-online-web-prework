@@ -22,7 +22,7 @@ def first_challenge
           value.each do |flavor, i|
           if flavor == "strawberry"
            # binding.pry
-           flavor.delete!(0)
+           flavor.delete(0)
           end
           end
       end
