@@ -1,4 +1,4 @@
-require
+require 'pry'
 def first_challenge
   contacts = {
     "Jon Snow" => {
