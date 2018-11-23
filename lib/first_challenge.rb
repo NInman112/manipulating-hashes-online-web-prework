@@ -21,7 +21,7 @@ def first_challenge
         if attribute == :favorite_icecream_flavors
           value.each do |flavor, i|
           if flavor == "strawberry"
-           binding.pry
+           # binding.pry
            flavor.delete_at(0)
           end
           end
