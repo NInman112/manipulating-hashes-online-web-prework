@@ -22,12 +22,13 @@ def first_challenge
           value.each do |flavor, i|
           if flavor == "strawberry"
            # binding.pry
-           flavor.delete(0)
+           flavor.delete_at(0)
           end
           end
       end
     end
   end
+  return contacts
   #remember to return your newly altered contacts hash!
   contacts
 end
